@@ -10,8 +10,9 @@ cloth + akshata shower) -> events -> calendar -> couple -> venue -> countdown ->
 Originally ported from the owner's template `vv8446931264-max/vishal-poonam-wedding`; the envelope was replaced by the doors.
 Wedding facts (names, families, events 12-13 Dec 2026, venue, WhatsApp) were taken from
 `vv8446931264-max/mangesh-pranita-wedding-v2` (its `const C` block) and must match it character for character.
-Keep both languages: Marathi (Devanagari) first, English second. The couple's names are NOT written in Devanagari
-(spelling unconfirmed) — ask the owner before adding them.
+Keep both languages: Marathi (Devanagari) first, English second. Names in Devanagari: मंगेश and प्रणिता (the owner asked
+for the spelling to be taken from the web: मंगेश as in poet मंगेश पाडगांवकर; प्रणिता is how Lokmat/eSakal spell the name,
+not प्रणीता). Pair them with "व" (as in the v2 line "निकम व अभंग परिवार").
 
 ## Assets
 - `img/doors-tall.webp` — 1184x1328 temple doors. Door leaves are cut by CSS from the same image: doorway = image pixels
@@ -22,7 +23,8 @@ Keep both languages: Marathi (Devanagari) first, English second. The couple's na
 - `couple.webp` — painted couple portrait (1024x1536), shown behind the antarpat.
 - `audio/main.mp3` — "Indian Flute" by Antti Luode, CC BY 3.0 (Wikimedia Commons). Keep the credit in the footer.
   Never commit copyrighted film songs. The temple bell is synthesised with WebAudio (no file).
-- `preview.jpg` — WhatsApp/OG card, 1200x630, under 300 KB. Rename the file whenever it changes (WhatsApp caches).
+- `preview-2.jpg` — WhatsApp/OG card, 1200x630, under 300 KB. Rename the file whenever it changes (WhatsApp caches)
+  and update og:image + twitter:image.
   Render it from HTML with headless Chrome; PIL garbles Devanagari.
 - `incoming/` — the owner uploads new images here from the phone (GitHub > Add file > Upload files). Optimise,
   move into place, then delete from `incoming/`.
